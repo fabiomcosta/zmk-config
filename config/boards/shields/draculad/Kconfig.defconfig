@@ -18,6 +18,12 @@ endif
 
 if SHIELD_DRACULAD_LEFT || SHIELD_DRACULAD_RIGHT
 
+    config BT_DIS_PNP_VID
+        default 0x0000
+        
+    config BT_DIS_PNP_PID
+        default 0x0000
+
     config ZMK_SPLIT
         default y
 
